@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>    
+    <title>Project 1 - Notes</title>
+</head>
+<body>
+  <h1>My Task Board</h1>
+  <div class="container">
+    <div class="row">
+        <form >
+      <textarea rows="5" cols="42" placeholder="Enter new task "></textarea><br>
+        <label>Date:</label>
+        <input type="date" class="date"><br>
+        <label>Time:</label>
+        <input type="time" class="time"> <br>
+        <button class="btn btn-success" id="saveBtn" type="submit">Save</button>
+        <button type="button" id="reset" class="btn btn-danger">Reset</button> 
+      </form>
+    </div>
+    </div>
+
+<div class="noteDiv">
+  <div class="note"> 
+    <button id="removeX"></button>
+    <div class="noteText">
+    </div>
+  </div>
+  </div>
+
+
+</body>
+</html>
